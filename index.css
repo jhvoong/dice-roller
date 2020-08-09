@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("background.jpg");
@@ -6,19 +7,20 @@ body {
   margin: 0;
 }
 
-.result {
-  margin-top: 50px;
+.result, .game-name {
   font-size: 150px;
   font-family: sans-serif;
   display: block;
   width: 100vw;
   color: white;
   text-align: center;
-  position: fixed;
   display: none;
 }
+.game-name {
+  font-size: 70px;
+}
 .container {
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   display: flex;
   justify-content: center;
